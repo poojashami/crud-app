@@ -1,0 +1,10 @@
+{
+  "/api/items/route": "/api/items",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/items/[id]/edit/page": "/items/[id]/edit",
+  "/items/[id]/page": "/items/[id]",
+  "/items/page": "/items",
+  "/items/create/page": "/items/create",
+  "/page": "/"
+}

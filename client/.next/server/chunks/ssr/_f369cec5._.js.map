@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///D:/Self%20Study/FontEnd/crud-app/client/app/layout.js"],"sourcesContent":["import \"./globals.css\";\n\nexport const metadata = {\n  title: \"CRUD App\",\n  description: \"Next.js + Express + MongoDB\",\n};\n\nexport default function RootLayout({ children }) {\n  return (\n    <html lang=\"en\">\n      <body className=\"container mx-auto px-4 py-8\">\n        <nav className=\"mb-8\">\n          {/* <a href=\"/\" className=\"text-xl font-bold\">\n            CRUD App\n          </a> */}\n        </nav>\n        {children}\n      </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;;;AAEO,MAAM,WAAW;IACtB,OAAO;IACP,aAAa;AACf;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAE;IAC7C,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;YAAK,WAAU;;8BACd,8OAAC;oBAAI,WAAU;;;;;;gBAKd;;;;;;;;;;;;AAIT","debugId":null}},
-    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":["file:///D:/Self%20Study/FontEnd/crud-app/client/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
-}
