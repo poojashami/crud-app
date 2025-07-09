@@ -1,10 +1,5 @@
 {
-  "/api/items/route": "app/api/items/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/items/create/page": "app/items/create/page.js",
-  "/items/[id]/page": "app/items/[id]/page.js",
-  "/items/page": "app/items/page.js",
-  "/items/[id]/edit/page": "app/items/[id]/edit/page.js",
   "/page": "app/page.js"
 }
