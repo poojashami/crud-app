@@ -13,11 +13,12 @@ export default function ItemView() {
   const [item, setItem] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const API_URL = process.env.API_URL || "http://localhost:5000";
 
   useEffect(() => {
     const fetchItem = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/api/items/${id}`);
+        const res = await fetch(`${API_URL}/api/items/${id}`);
         if (!res.ok) throw new Error("Failed to fetch item");
         const data = await res.json();
         setItem(data);

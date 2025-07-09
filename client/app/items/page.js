@@ -1,7 +1,8 @@
 import Link from "next/link";
+const API_URL = process.env.API_URL || "http://localhost:5000";
 
 async function getItems() {
-  const res = await fetch("http://localhost:5000/api/items");
+  const res = await fetch(`${API_URL}/api/items`);
   if (!res.ok) throw new Error("Failed to fetch items");
   return res.json();
 }
